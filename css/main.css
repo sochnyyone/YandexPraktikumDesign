@@ -18,7 +18,7 @@ main {
 	background-color: #252A2E;
 	margin: 0 auto;
 	overflow: hidden;
-	position: relative;
+	position: absolute;
 }
 
 p, h1, h2, h3 {
@@ -47,7 +47,7 @@ nav {
 	position: fixed;
 	bottom: 0;
 	background-color: #22262B;
-	margin-bottom: calc(100vh - 688px)
+	margin-bottom: calc(90h - 688px)
 }
 
 .screen {
@@ -56,11 +56,11 @@ nav {
 }
 
 .right {
-	transform: translateX(100%);
+	transform: translateX(90%);
 }
 
 .left {
-	transform: translateX(-100%);
+	transform: translateX(-90%);
 }
 
 .main-window-home {
